@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Kirill Shulgin](https://up.htmlacademy.ru/htmlcss/36/user/2214347).
-* Наставник: `Неизвестно`.
+* Наставник: [Константин Черепанов](https://htmlacademy.ru/profile/ccher)
 
 ---
 
