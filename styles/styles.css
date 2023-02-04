@@ -46,7 +46,9 @@ body {
 }
 
 header .advantages-title,
-header .service-title {
+header .service-title,
+.hotel-search-title,
+.subcribe-title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -56,7 +58,9 @@ header .service-title {
 }
 
 header .advantages-description,
-header .service-description {
+header .service-description,
+.hotel-search-description,
+.subcribe-description {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 22px;
@@ -68,7 +72,6 @@ header .service-description {
 .service-list {
   text-align: center;
 }
-
 
 .advantages-title,
 .service-title {
@@ -93,4 +96,13 @@ header .service-description {
 .service-item:nth-child(odd) {
   color: #000000;
   background-color: #83B3D31F;
+}
+
+.subcribe {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url(../images/subscribe.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
 }
