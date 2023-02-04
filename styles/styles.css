@@ -36,3 +36,16 @@ body {
   text-align: center;
   color: #000000;
 }
+
+.main-index {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.hero {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../images/block_hero/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
