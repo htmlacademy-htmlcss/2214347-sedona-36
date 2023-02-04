@@ -21,3 +21,18 @@ body {
   color: #000000;
   background-color: #FFFFFF;
 }
+
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+}
