@@ -44,3 +44,22 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+
+header .advantages-title,
+header .service-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header .advantages-description,
+header .service-description {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
