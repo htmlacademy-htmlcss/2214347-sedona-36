@@ -181,3 +181,10 @@ header .service-description,
 .control {
   line-height: 23px;
 }
+
+.sorting-result {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
