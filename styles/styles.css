@@ -19,7 +19,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: rgba(0, 0, 0, 1);
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(242, 242, 242, 1);
 }
 
 .button {
@@ -33,8 +33,20 @@ body {
   text-transform: uppercase;
 }
 
+button.button-blue {
+  background-color: rgba(130, 179, 211, 1);
+}
+
+button.button-green {
+  background-color: rgba(125, 181, 79, 1);
+}
+
 a.button {
   color:rgba(255, 255, 255, 1);
+}
+
+.wrapper-content {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .page-header {
@@ -129,3 +141,5 @@ header .service-description,
   text-align: center;
   text-decoration: none;
 }
+
+/*Оформление внутренних странниц*/
