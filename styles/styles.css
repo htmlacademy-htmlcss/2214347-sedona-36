@@ -206,3 +206,22 @@ header .service-description,
   width: 140px;
   height: 37px;
 }
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(130, 179, 211, 1);
+}
+
+.pagination-current {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(242, 242, 242, 1);
+}
+
+.pagination-item span {
+  font-size: 22px;
+  line-height: 26px;
+}
