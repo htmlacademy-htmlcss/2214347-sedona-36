@@ -145,6 +145,9 @@ header .service-description,
 
 .advantages-list,
 .service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -156,6 +159,16 @@ header .service-description,
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+}
+
+.advantages-item,
+.service-item {
+  width: 400px;
+}
+
+.advantages-image {
+  display: block;
+  margin: 0 auto;
 }
 
 .advantages-item:first-child,
