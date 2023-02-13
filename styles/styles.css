@@ -52,6 +52,7 @@ a.button {
   color: rgba(255, 255, 255, 1);
 }
 
+/* ОФормление страниц */
 .wrapper-content {
   display: flex;
   flex-direction: column;
@@ -66,6 +67,12 @@ a.button {
   background-color: rgba(255, 255, 255, 1);
 }
 
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -75,9 +82,31 @@ a.button {
   color: rgba(0, 0, 0, 1);
 }
 
+.navigation-logo {
+  width: 140px;
+  margin-right: 30px;
+
+}
+
+.navigation-list {
+  width: 465px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 315px;
+  margin-left: auto;
+
+}
+
 .navigation-button a {
   font-size: 16px;
   line-height: 20px;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .hero {
@@ -88,8 +117,9 @@ a.button {
   background-repeat: no-repeat;
 }
 
-.main-container {
-  flex-grow: 1;
+.logo-welcome {
+  display: block;
+  margin: 0 auto;
 }
 
 header .advantages-title,
@@ -115,6 +145,8 @@ header .service-description,
 
 .advantages-list,
 .service-list {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
