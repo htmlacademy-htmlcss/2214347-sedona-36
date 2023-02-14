@@ -358,7 +358,7 @@ a.button.button-list {
   margin-right: 8px;
 }
 
-..pagination-item:last-child {
+.pagination-item:last-child {
   margin-right: 0;
 }
 
