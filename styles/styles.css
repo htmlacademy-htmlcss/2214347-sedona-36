@@ -14,7 +14,13 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -22,6 +28,7 @@ body {
   background-color: rgba(242, 242, 242, 1);
 }
 
+/* Кнопки */
 .button {
   font-family: inherit;
   font-size: 16px;
@@ -45,14 +52,26 @@ a.button {
   color: rgba(255, 255, 255, 1);
 }
 
+/* ОФормление страниц */
 .wrapper-content {
-  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 1);
 }
 
+/* Шапка главной страницы*/
 .page-header {
   color: rgba(0, 0, 0, 1);
   background-color: rgba(255, 255, 255, 1);
+}
+
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .navigation-link {
@@ -64,11 +83,35 @@ a.button {
   color: rgba(0, 0, 0, 1);
 }
 
+.navigation-logo {
+  width: 140px;
+  margin-right: 30px;
+
+}
+
+.navigation-list {
+  width: 465px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 315px;
+  margin-left: auto;
+
+}
+
 .navigation-button a {
   font-size: 16px;
   line-height: 20px;
 }
 
+/* Основной контент */
+.main-container {
+  flex-grow: 1;
+}
+
+/* Блок хиро */
 .hero {
   color: rgba(0, 0, 0, 1);
   background-color: rgba(255, 255, 255, 1);
@@ -77,6 +120,12 @@ a.button {
   background-repeat: no-repeat;
 }
 
+.logo-welcome {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Блок преимуществ */
 header .advantages-title,
 header .service-title,
 .hotel-search-title,
@@ -100,6 +149,10 @@ header .service-description,
 
 .advantages-list,
 .service-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -111,10 +164,19 @@ header .service-description,
   text-transform: uppercase;
 }
 
+.advantages-item,
+.service-item {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  min-height: 385px;
+}
+
 .advantages-item:first-child,
 .advantages-item:last-child {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(130, 179, 211, 1);
+  width: 1200px;
 }
 
 .advantages-item:nth-child(3) {
@@ -122,9 +184,24 @@ header .service-description,
   background-color: rgba(131, 179, 211, 0.2);
 }
 
+.advantages-item-text,
+.service-item-text {
+  margin: 0 auto;
+}
+
+.advantages-image {
+  vertical-align: middle;
+}
+
+/* Блок сервиса */
 .service-item:nth-child(odd) {
   color: rgba(0, 0, 0, 1);
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+/* Блок поиска гостиницы */
+.hotel-search {
+  text-align: center;
 }
 
 .button-big {
@@ -132,12 +209,35 @@ header .service-description,
   line-height: 36px;
 }
 
+/* Блок подписки */
 .subcribe {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 1);
   background-image: url(../images/subscribe.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
+  text-align: center;
+}
+
+/* Подвал */
+.page-footer-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer-social {
+  width: 142px;
+  margin-right: 237px;
+}
+
+.footer-social-list .button,
+a.button.button-compact,
+a.button.button-full,
+a.button.button-list {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .footer-contacts-phone {
@@ -149,6 +249,11 @@ header .service-description,
   text-decoration: none;
 }
 
+.footer-logo {
+  margin-left: auto;
+  max-width: 115px;
+}
+
 /*Оформление внутренних странниц*/
 
 .index-columns {
@@ -156,9 +261,10 @@ header .service-description,
   background-color: rgba(0, 0, 0, 1);
   background-image: url(../images/catalog_header.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
+/* Шапка внутренней страницы */
 .inner-header-title {
   font-weight: 700;
   font-size: 60px;
@@ -172,6 +278,24 @@ header .service-description,
   color: rgba(255, 255, 255, 1);
 }
 
+/* Фильтры */
+.catalog-filter {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.catalog-filter-group {
+  display: flex;
+  align-items: flex-start;
+  width: 150px;
+  margin-right: 70px;
+}
+
+.catalog-filter-group-price {
+  width: 288px;
+}
+
 .catalof-filter-title {
   font-weight: 700;
   font-size: 20px;
@@ -182,11 +306,36 @@ header .service-description,
   line-height: 23px;
 }
 
+.catalog-filter-wrapper-button {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  margin-left: 70px;
+  margin-right: 70px;
+  justify-content: space-evenly;
+
+}
+
+.sorting-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .sorting-result {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+/* Карточки гостиниц */
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 340px;
+  justify-content: space-between;
 }
 
 .hotel-card-link {
@@ -205,6 +354,24 @@ header .service-description,
   background-color: rgba(242, 242, 242, 1);
   width: 140px;
   height: 37px;
+}
+
+/* Пагинация */
+.pagination {
+  display: flex;
+  min-width: 400px;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.pagination-item {
+  width: 60px;
+  min-height: 60px;
+  margin-right: 8px;
+}
+
+.pagination-item:last-child {
+  margin-right: 0;
 }
 
 .pagination-link {

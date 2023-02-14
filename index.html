@@ -12,7 +12,7 @@
 
       <header class="page-header">
         <nav class="navigation">
-          <a class="navigation-link">
+          <a class="navigation-link navigation-logo">
             <img class="page-header-logo" src="images/header_icons/logo.svg" width="140" height="70"
               alt="Логотип города Седона.">
           </a>
@@ -50,7 +50,7 @@
         </nav>
       </header>
 
-      <main class="main-index">
+      <main class="main-container main-index">
         <section class="hero">
           <h1 class="visually-hidden">
             Добро пожаловать в величественную Седону.
@@ -58,6 +58,7 @@
           <img class="logo-welcome" src="images/block_hero/welcome.svg" width="458" height="352"
             alt="Добро пожаловать в величественную Седону.">
         </section>
+
         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
           <header class="advantages-header">
@@ -65,29 +66,43 @@
             <p class="advantages-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           </header>
           <ul class="advantages-list">
-            <li class="advantages-item">
-              <h3 class="advantages-title">Настоящий городок</h3>
-              <p class="advantages-description">Седона — не аттракцион для <br>туристов, там течёт своя <br>жизнь</p>
-              <img class="advantages-image" src="images/advantages/real_town.jpg" width="800" height="385"
-                alt="Улица города Седоны на фоне гор.">
+            <li class="advantages-item advantages-town">
+              <div class="advantages-item-text">
+                <h3 class="advantages-title">Настоящий городок</h3>
+                <p class="advantages-description">Седона — не аттракцион для <br>туристов, там течёт своя <br>жизнь</p>
+              </div>
+              <div class="advantages-item-image">
+                <img class="advantages-image" src="images/advantages/real_town.jpg" width="800" height="385"
+                  alt="Улица города Седоны на фоне гор.">
+              </div>
             </li>
             <li class="advantages-item">
-              <h3 class="advantages-title">Небольшая <br>площадь</h3>
-              <p class="advantages-description">Все достопримечательности <br>находятся очень близко</p>
+              <div class="advantages-item-text">
+                <h3 class="advantages-title">Небольшая <br>площадь</h3>
+                <p class="advantages-description">Все достопримечательности <br>находятся очень близко</p>
+              </div>
             </li>
             <li class="advantages-item">
-              <h3 class="advantages-title">Красивая <br>дорога</h3>
-              <p class="advantages-description">Ехать в Седону из Лас-Вегаса <br>совсем не скучно!</p>
+              <div class="advantages-item-text">
+                <h3 class="advantages-title">Красивая <br>дорога</h3>
+                <p class="advantages-description">Ехать в Седону из Лас-Вегаса <br>совсем не скучно!</p>
+              </div>
             </li>
             <li class="advantages-item">
-              <h3 class="advantages-title">Мало <br> туристов</h3>
-              <p class="advantages-description">Большинство едет в Гранд <br>Каньон и толпится там</p>
+              <div class="advantages-item-text">
+                <h3 class="advantages-title">Мало <br> туристов</h3>
+                <p class="advantages-description">Большинство едет в Гранд <br>Каньон и толпится там</p>
+              </div>
             </li>
-            <li class="advantages-item">
-              <img class="advantages-image" src="images/advantages/devil_bridge.jpg" width="800" height="385"
-                alt="Мост Дьявола.">
-              <h3 class="advantages-title">Там есть <br>мост дьявола</h3>
-              <p class="advantages-description">Да, по нему можно пройти! <br>Если вы осмелитесь, <br>разумеется</p>
+            <li class="advantages-item advantages-bridge">
+              <div class="advantages-item-image">
+                <img class="advantages-image" src="images/advantages/devil_bridge.jpg" width="800" height="385"
+                  alt="Мост Дьявола.">
+              </div>
+              <div class="advantages-item-text">
+                <h3 class="advantages-title">Там есть <br>мост дьявола</h3>
+                <p class="advantages-description">Да, по нему можно пройти! <br>Если вы осмелитесь, <br>разумеется</p>
+              </div>
             </li>
           </ul>
         </section>
@@ -100,17 +115,25 @@
           </header>
           <ul class="service-list">
             <li class="service-item">
-              <h3 class="service-title">Жильё</h3>
-              <p class="service-description">Рекомендуем пожить <br>в настоящем мотеле, <br>всё как в кино!</p>
+              <div class="service-item-text">
+                <h3 class="service-title">Жильё</h3>
+                <p class="service-description">Рекомендуем пожить <br>в настоящем мотеле, <br>всё как в кино!</p>
+              </div>
+
             </li>
             <li class="service-item">
-              <h3 class="service-title">Еда</h3>
-              <p class="service-description">Всегда заказывайте <br>топовый фирменный бургер, <br>вы не разочаруетесь!
-              </p>
+              <div class="service-item-text">
+                <h3 class="service-title">Еда</h3>
+                <p class="service-description">Всегда заказывайте <br>топовый фирменный бургер, <br>вы не разочаруетесь!
+                </p>
+              </div>
+
             </li>
             <li class="service-item">
-              <h3 class="service-title">Сувениры</h3>
-              <p class="service-description">Не только китайского, <br>но и настоящего местного <br>производства!</p>
+              <div class="service-item-text">
+                <h3 class="service-title">Сувениры</h3>
+                <p class="service-description">Не только китайского, <br>но и настоящего местного <br>производства!</p>
+              </div>
             </li>
           </ul>
         </section>
@@ -132,47 +155,48 @@
             <button class="button button-blue button-big" type="submit">Подписаться</button>
           </form>
         </section>
+
       </main>
 
       <footer class="page-footer">
+        <div class="page-footer-container">
 
-        <section class="footer-social">
-          <h2 class="visually-hidden">Социальные сети</h2>
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="button" href="https://vk.com/htmlacademy">
-                <img class="footer-social-image" src="#" alt="Вконтакте.">
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="https://t.me/htmlacademy">
-                <img class="footer-social-image" src="#" alt="Телеграмм.">
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                <img class="footer-social-image" src="#" alt="Ютуб.">
-              </a>
-            </li>
-          </ul>
-        </section>
+          <section class="footer-social">
+            <h2 class="visually-hidden">Социальные сети</h2>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a class="button" href="https://vk.com/htmlacademy">
+                  <img class="footer-social-image" src="#" alt="Вконтакте.">
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="button" href="https://t.me/htmlacademy">
+                  <img class="footer-social-image" src="#" alt="Телеграмм.">
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+                  <img class="footer-social-image" src="#" alt="Ютуб.">
+                </a>
+              </li>
+            </ul>
+          </section>
 
-        <div class="footer-contacts">
-          <address class="contacts-address">
-            <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-          </address>
+          <div class="footer-contacts">
+            <address class="contacts-address">
+              <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+            </address>
+          </div>
+
+          <div class="footer-logo">
+            <a class="button-logo" href="https://htmlacademy.ru/">
+              <img class="footer-logo-image" src="images/footer_icons/logo_html_academy.svg" width="115" height="33"
+                alt="HTML Academy.">
+            </a>
+          </div>
         </div>
-
-        <div class="footer-logo">
-          <a class="button-logo" href="https://htmlacademy.ru/">
-            <img class="footer-logo-image" src="images/footer_icons/logo_html_academy.svg" width="115" height="33"
-              alt="HTML Academy.">
-          </a>
-        </div>
-
       </footer>
     </div>
-
   </body>
 
 </html>

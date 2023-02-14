@@ -49,7 +49,7 @@
         </nav>
       </header>
 
-      <main class="main-inner">
+      <main class="main-container main-inner">
         <div class="index-columns">
           <header class="inner-header">
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -120,7 +120,7 @@
                 </ul>
               </fieldset>
 
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group catalog-filter-group-price">
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -134,27 +134,29 @@
                   </li>
                 </ul>
               </fieldset>
+              <div class="catalog-filter-wrapper-button">
 
-              <button class="button button-blue" type="submit">Применить</button>
-              <button class="button" type="reset">Сбросить</button>
+                <button class="button button-blue" type="submit">Применить</button>
+                <button class="button" type="reset">Сбросить</button>
+              </div>
             </form>
+          </section>
         </div>
 
         <div class="sorting-container">
           <p class="sorting-result">Найдено гостиниц: 38</p>
-          <select class="select-control" aria-label="Сортировка">
-            <option value="popular">Сначала популярные</option>
-            <option value="cheap">Сначала дешевые</option>
-            <option value="expensive">Сначала дорогие</option>
-          </select>
+          <div class="sorting-select">
+            <select class="select-control" aria-label="Сортировка">
+              <option value="popular">Сначала популярные</option>
+              <option value="cheap">Сначала дешевые</option>
+              <option value="expensive">Сначала дорогие</option>
+            </select>
+          </div>
 
           <a class="button button-compact" href="#">Компактное представление</a>
           <a class="button button-full" href="#">Полное представление</a>
           <a class="button button-list" href="#">Списочное представление</a>
         </div>
-
-
-
 
 
         <ul class="hotel-list">
@@ -241,7 +243,7 @@
           </li>
         </ol>
 
-        </section>
+
 
         <section class="subcribe">
           <h2 class="visually-hidden">Подписка</h2>
@@ -256,39 +258,41 @@
       </main>
 
       <footer class="page-footer">
+        <div class="page-footer-container">
 
-        <section class="footer-social">
-          <h2 class="visually-hidden">Социальные сети</h2>
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="button" href="https://vk.com/htmlacademy">
-                <img class="footer-social-image" src="#" alt="Вконтакте.">
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="https://t.me/htmlacademy">
-                <img class="footer-social-image" src="#" alt="Телеграмм.">
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                <img class="footer-social-image" src="#" alt="Ютуб.">
-              </a>
-            </li>
-          </ul>
-        </section>
+          <section class="footer-social">
+            <h2 class="visually-hidden">Социальные сети</h2>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a class="button" href="https://vk.com/htmlacademy">
+                  <img class="footer-social-image" src="#" alt="Вконтакте.">
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="button" href="https://t.me/htmlacademy">
+                  <img class="footer-social-image" src="#" alt="Телеграмм.">
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+                  <img class="footer-social-image" src="#" alt="Ютуб.">
+                </a>
+              </li>
+            </ul>
+          </section>
 
-        <div class="footer-contacts">
-          <address class="contacts-address">
-            <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-          </address>
-        </div>
+          <div class="footer-contacts">
+            <address class="contacts-address">
+              <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+            </address>
+          </div>
 
-        <div class="footer-logo">
-          <a class="button-logo" href="https://htmlacademy.ru/">
-            <img class="footer-logo-image" src="images/footer_icons/logo_html_academy.svg" width="115" height="33"
-              alt="HTML Academy.">
-          </a>
+          <div class="footer-logo">
+            <a class="button-logo" href="https://htmlacademy.ru/">
+              <img class="footer-logo-image" src="images/footer_icons/logo_html_academy.svg" width="115" height="33"
+                alt="HTML Academy.">
+            </a>
+          </div>
         </div>
 
       </footer>
