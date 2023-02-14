@@ -194,6 +194,10 @@ header .service-description,
   background-color: rgba(131, 179, 211, 0.12);
 }
 
+.hotel-search {
+  text-align: center;
+}
+
 .button-big {
   font-size: 20px;
   line-height: 36px;
@@ -205,6 +209,7 @@ header .service-description,
   background-image: url(../images/subscribe.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .footer-contacts-phone {
