@@ -224,7 +224,10 @@ header .service-description,
   margin-right: 237px;
 }
 
-.footer-social-list .button {
+.footer-social-list .button,
+a.button.button-compact,
+a.button.button-full,
+a.button.button-list {
   color: rgba(0, 0, 0, 1);
   background-color: rgba(255, 255, 255, 1);
 }
@@ -242,6 +245,7 @@ header .service-description,
   margin-left: auto;
   max-width: 115px;
 }
+
 /*Оформление внутренних странниц*/
 
 .index-columns {
@@ -249,7 +253,7 @@ header .service-description,
   background-color: rgba(0, 0, 0, 1);
   background-image: url(../images/catalog_header.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .inner-header-title {
@@ -265,6 +269,23 @@ header .service-description,
   color: rgba(255, 255, 255, 1);
 }
 
+.catalog-filter {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.catalog-filter-group {
+  display: flex;
+  align-items: flex-start;
+  width: 150px;
+  margin-right: 70px;
+}
+
+.catalog-filter-group-price {
+  width: 288px;
+}
+
 .catalof-filter-title {
   font-weight: 700;
   font-size: 20px;
@@ -275,11 +296,35 @@ header .service-description,
   line-height: 23px;
 }
 
+.catalog-filter-wrapper-button {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  margin-left: 70px;
+  margin-right: 70px;
+  justify-content: space-evenly;
+
+}
+
+.sorting-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .sorting-result {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 340px;
+  justify-content: space-between;
 }
 
 .hotel-card-link {
@@ -298,6 +343,23 @@ header .service-description,
   background-color: rgba(242, 242, 242, 1);
   width: 140px;
   height: 37px;
+}
+
+.pagination {
+  display: flex;
+  min-width: 400px;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.pagination-item {
+  width: 60px;
+  min-height: 60px;
+  margin-right: 8px;
+}
+
+..pagination-item:last-child {
+  margin-right: 0;
 }
 
 .pagination-link {
