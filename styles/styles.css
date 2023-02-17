@@ -148,6 +148,21 @@ a.button {
 }
 
 /* Блок преимуществ */
+.advantages-header {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-bottom: 20px;
+}
+
+h3.advantages-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.advantages-header .advantages-description {
+  margin: 0;
+}
+
 header .advantages-title,
 header .service-title,
 .hotel-search-title,
@@ -176,6 +191,7 @@ header .service-description,
   margin: 0;
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 
 .advantages-title,
@@ -209,6 +225,10 @@ header .service-description,
 .advantages-item-text,
 .service-item-text {
   margin: 0 auto;
+}
+
+.advantages-item-text .advantages-title {
+  margin-bottom: 62px;
 }
 
 .advantages-image {
