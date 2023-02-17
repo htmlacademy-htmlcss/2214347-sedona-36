@@ -133,6 +133,8 @@ a.button {
 
 /* Блок хиро */
 .hero {
+  padding-top: 50px;
+  padding-bottom: 82px;
   color: rgba(0, 0, 0, 1);
   background-color: rgba(255, 255, 255, 1);
   background-image: url("../images/block_hero/index-background.jpg");
