@@ -519,12 +519,29 @@ a.button.button-list {
 .hotel-list {
   display: flex;
   flex-wrap: wrap;
-  min-width: 340px;
-  justify-content: space-between;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hotel-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  min-height: 438px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.hotel-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .hotel-card-link {
   text-decoration: none;
+  margin: 0 auto;
 }
 
 .hotel-card-title {
@@ -532,6 +549,41 @@ a.button.button-list {
   font-size: 24px;
   line-height: 28px;
   color: rgba(0, 0, 0, 1);
+  margin-top: 16px;
+  margin-bottom: 16px;;
+}
+
+.hotel-card-description {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hotel-card-description p {
+  display: flex;
+  width: 140px;
+  min-height: 21px;
+  margin: 0;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.hotel-card-description p:nth-child(2n) {
+  margin-right: 0;
+  justify-content: flex-end;
+}
+
+.hotel-card-description .button {
+  display: inline-block;
+  width: 140px;
+  min-height: 36px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.hotel-card-description .button:nth-child(2n) {
+  margin-right: 0;
+  justify-content: flex-end;
 }
 
 .hotel-card-ratings {
@@ -539,19 +591,19 @@ a.button.button-list {
   background-color: rgba(242, 242, 242, 1);
   width: 140px;
   height: 37px;
+  text-align: center;
 }
 
 /* Пагинация */
 .pagination {
   display: flex;
-  min-width: 400px;
-  justify-content: flex-start;
-  list-style: none;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
 }
 
 .pagination-item {
-  width: 60px;
-  min-height: 60px;
   margin-right: 8px;
 }
 
@@ -566,6 +618,12 @@ a.button.button-list {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(130, 179, 211, 1);
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 11px 11px;
+  text-align: center;
 }
 
 .pagination-current {
@@ -573,9 +631,11 @@ a.button.button-list {
   background-color: rgba(242, 242, 242, 1);
 }
 
-.pagination-item span {
+.pagination-multipoint {
   font-size: 22px;
   line-height: 26px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 /* Блок подписки */
