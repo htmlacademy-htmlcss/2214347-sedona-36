@@ -283,11 +283,28 @@ h3.service-title {
 /* Блок поиска гостиницы */
 .hotel-search {
   text-align: center;
+  padding-bottom: 96px;
+  padding-top: 96px;
 }
 
 .button-big {
   font-size: 20px;
   line-height: 36px;
+}
+
+.hotel-search-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hotel-search-description {
+  margin: 0;
+}
+
+.hotel-search .button-big {
+  display: inline-block;
+  margin-top: 54px;
+  padding: 8px 50px;
 }
 
 /* Блок подписки */
