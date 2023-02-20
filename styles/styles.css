@@ -501,7 +501,7 @@ a.button.button-list {
 
 .sorting-buttons {
   display: flex;
-  margin-left: 70px;
+  margin-left: auto;
   width: 160px;
 }
 
