@@ -168,7 +168,8 @@ h3.advantages-title {
 header .advantages-title,
 header .service-title,
 .hotel-search-title,
-.subcribe-title {
+.subscribe-title,
+.subscribe-inner-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -179,7 +180,8 @@ header .service-title,
 header .advantages-description,
 header .service-description,
 .hotel-search-description,
-.subcribe-description {
+.subscribe-description,
+.subscribe-inner-description {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -308,7 +310,7 @@ h3.service-title {
 }
 
 /* Блок подписки */
-.subcribe {
+.subscribe {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 1);
   background-image: url(../images/subscribe.jpg);
@@ -316,6 +318,8 @@ h3.service-title {
   background-repeat: no-repeat;
   text-align: center;
 }
+
+.subscribe-title
 
 /* Подвал */
 .page-footer-container {
@@ -489,4 +493,11 @@ a.button.button-list {
 .pagination-item span {
   font-size: 22px;
   line-height: 26px;
+}
+
+/* Блок подписки */
+.subscribe-inner {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
 }
