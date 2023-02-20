@@ -475,11 +475,15 @@ a.button.button-list {
 
 }
 
+/* Сортировка */
+
 .sorting-container {
   display: flex;
   width: 1060px;
   margin: 0 auto;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .sorting-result {
@@ -487,6 +491,28 @@ a.button.button-list {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin-right: auto;
+  margin: 0;
+}
+
+.sorting-select {
+  margin-left: 200px;
+}
+
+.sorting-buttons {
+  display: flex;
+  margin-left: 70px;
+  width: 160px;
+}
+
+.sorting-container .button {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+
+.sorting-container .button:last-child {
+  margin-right: 0;
 }
 
 /* Карточки гостиниц */
