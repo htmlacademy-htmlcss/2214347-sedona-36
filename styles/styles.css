@@ -204,8 +204,8 @@ header .service-description,
   text-transform: uppercase;
 }
 
-.advantages-item,
-.service-item {
+ .advantages-item {
+
   display: flex;
   align-items: center;
   width: 400px;
@@ -242,6 +242,39 @@ header .service-description,
 }
 
 /* Блок сервиса */
+.service-header {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+h3.service-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.service-header .service-description {
+  margin: 0;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  min-height: 385px;
+}
+
+.service-item-text {
+  margin-top: 102px;
+}
+
+.service-item-text .service-title {
+  margin-bottom: 30px;
+}
+
+.service-item-text .service-description {
+  margin: 0;
+}
+
 .service-item:nth-child(odd) {
   color: rgba(0, 0, 0, 1);
   background-color: rgba(131, 179, 211, 0.12);
