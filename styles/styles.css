@@ -404,13 +404,29 @@ a.button.button-list {
   background-image: url(../images/catalog_header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 70px;
 }
 
 /* Шапка внутренней страницы */
+.inner-header {
+  margin-left: 70px;
+  margin-bottom: 40px;
+}
+
 .inner-header-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .breadcrumbs-link {
@@ -418,6 +434,7 @@ a.button.button-list {
   text-decoration: none;
   text-align: center;
   color: rgba(255, 255, 255, 1);
+  margin-right: 28px;
 }
 
 /* Фильтры */
