@@ -464,6 +464,7 @@ a.button.button-list {
 .catalog-filter-list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .control {
