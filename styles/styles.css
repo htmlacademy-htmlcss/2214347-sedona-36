@@ -455,10 +455,15 @@ a.button.button-list {
   width: 288px;
 }
 
-.catalof-filter-title {
+.catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+}
+
+.catalog-filter-list {
+  list-style-type: none;
+  padding: 0;
 }
 
 .control {
@@ -565,25 +570,34 @@ a.button.button-list {
   margin: 0;
   margin-right: 20px;
   margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotel-card-description .hotel-card-name {
+  justify-content: flex-start;
 }
 
 .hotel-card-description p:nth-child(2n) {
   margin-right: 0;
+}
+
+.hotel-card-description .hotel-card-price {
   justify-content: flex-end;
 }
 
 .hotel-card-description .button {
-  display: inline-block;
+  display: flex;
   width: 140px;
   min-height: 36px;
   margin-right: 20px;
   margin-bottom: 16px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .hotel-card-description .button:nth-child(2n) {
   margin-right: 0;
-  justify-content: flex-end;
 }
 
 .hotel-card-ratings {
