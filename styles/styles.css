@@ -535,10 +535,18 @@ a.button.button-list {
 
 .hotel-item {
   padding: 20px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
 }
 
 .hotel-card-link {
+  text-align: center;
   text-decoration: none;
+}
+
+.hotel-card-image {
+  width: 340px;
+  object-fit: contain;
 }
 
 .hotel-card-title {
@@ -551,7 +559,7 @@ a.button.button-list {
 
 .hotel-card-description {
   display: grid;
-  grid-template-columns: repeat(2,140px);
+  grid-template-columns: repeat(2, 140px);
   column-gap: 20px;
   row-gap: 16px;
 }
