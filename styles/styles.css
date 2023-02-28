@@ -534,6 +534,7 @@ a.button.button-list {
 }
 
 .hotel-item {
+  box-sizing: border-box;
   padding: 20px;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
@@ -545,7 +546,7 @@ a.button.button-list {
 }
 
 .hotel-card-image {
-  width: 340px;
+  vertical-align: middle;
   object-fit: contain;
 }
 
