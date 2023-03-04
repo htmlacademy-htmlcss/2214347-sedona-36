@@ -345,17 +345,61 @@ h3.service-title {
   width: 400px;
   min-height: 385px;
 }
-
+/*
 .service-item-text {
-  margin-top: 102px;
+  margin-top: 0;
+} */
+
+.service-item-text.house::after {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 72px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  order: 1;
+
+  background-image: url("../images/service_icons/icon_house.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.service-item-text.food::after {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 72px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  order: 1;
+
+  background-image: url("../images/service_icons/icon_food.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.service-item-text.souvenirs::after {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 72px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  order: 1;
+
+  background-image: url("../images/service_icons/icon_souvenirs.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .service-item-text .service-title {
   margin-bottom: 30px;
+  order: 2;
 }
 
 .service-item-text .service-description {
   margin: 0;
+  order: 3;
 }
 
 .service-item:nth-child(odd) {
