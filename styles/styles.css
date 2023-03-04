@@ -52,6 +52,7 @@ body {
   padding: 0;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 button.button-blue {
@@ -164,7 +165,6 @@ a.button {
 
   margin-left: 20px;
   padding: 8px 34px;
-  border-radius: 4px;
 }
 
 /* Основной контент */
@@ -175,7 +175,6 @@ a.button {
 /* Блок хиро */
 .hero {
   padding-top: 51px;
-  /* padding-bottom: 82px; */
   color: rgba(0, 0, 0, 1);
   background-color: rgba(255, 255, 255, 1);
   background-image: url("../images/block_hero/index-background.jpg");
@@ -476,9 +475,12 @@ h3.service-title {
 .page-footer-container {
   display: flex;
   width: 1060px;
-  min-height: 120px;
+  min-height: 50px;
   margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-social {
@@ -494,17 +496,37 @@ h3.service-title {
   list-style-type: none;
 }
 
-.footer-social-item {
+.footer-social-vkontakte {
+  display: block;
   width: 47px;
   height: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 14px;
+  background-image: url("../images/footer_icons/vkontakte.svg");
 }
 
-.footer-social-list .button,
-a.button.button-compact,
-a.button.button-full,
-a.button.button-list {
-  color: rgba(0, 0, 0, 1);
+.footer-social-telegram {
+  display: block;
+  width: 47px;
+  height: 40px;
   background-color: rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 16px;
+  background-image: url("../images/footer_icons/telegram.svg");
+}
+
+.footer-social-youtube {
+  display: block;
+  width: 47px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 16px;
+  background-image: url("../images/footer_icons/youtube.svg");
 }
 
 .footer-contacts-phone {
@@ -514,6 +536,7 @@ a.button.button-list {
   line-height: 40px;
   text-align: center;
   text-decoration: none;
+  font-style: normal;
 }
 
 .footer-logo {
