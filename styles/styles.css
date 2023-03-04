@@ -265,7 +265,10 @@ header .service-description,
 
 .advantages-item-text,
 .service-item-text {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  width: 230px;
 }
 
 .advantages-title,
@@ -277,24 +280,38 @@ header .service-description,
 }
 
 .advantages-item-text .advantages-title {
-  margin-bottom: 62px;
+  margin-bottom: 30px;
+  order: 1;
+}
+
+.advantages-item-text::after {
+  content: "";
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  order: 2;
+  box-sizing: border-box;
+  width: 60px;
+  height: 2px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .advantages-bridge .advantages-item-text::after,
 .advantages-town .advantages-item-text::after {
   content: "";
-  /* box-sizing: border-box; */
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  order: 2;
+  box-sizing: border-box;
   width: 60px;
   height: 2px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-
-  /* display: flex;
-  margin: 0 auto;
-  order: 2; */
 }
 
 .advantages-item-text .advantages-description {
   margin: 0;
+  order: 3;
 }
 
 .advantages-image {
