@@ -175,7 +175,7 @@ a.button {
 /* Блок хиро */
 .hero {
   padding-top: 51px;
-  padding-bottom: 82px;
+  /* padding-bottom: 82px; */
   color: rgba(0, 0, 0, 1);
   background-color: rgba(255, 255, 255, 1);
   background-image: url("../images/block_hero/index-background.jpg");
@@ -186,6 +186,16 @@ a.button {
 .logo-welcome {
   display: block;
   margin: 0 auto;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  background-image: url("../images/block_hero/stairs.svg");
+  height: 57px;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+
 }
 
 /* Блок преимуществ */
