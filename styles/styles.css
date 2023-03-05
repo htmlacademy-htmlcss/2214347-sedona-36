@@ -794,8 +794,60 @@ h3.service-title {
   min-height: 36px;
 }
 
+p.stars {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+p.star-4::after {
+  content: "";
+  display: block;
+  width: 96px;
+  height: 17px;
+
+  background-image: url("../images/ratings_icon_star.svg");
+  background-size: 24px 17px;
+  background-repeat: repeat-x;
+}
+
+p.star-3::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 17px;
+
+  background-image: url("../images/ratings_icon_star.svg");
+  background-size: 24px 17px;
+  background-repeat: repeat-x;
+}
+
+p.star-2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 17px;
+
+  background-image: url("../images/ratings_icon_star.svg");
+  background-size: 24px 17px;
+  background-repeat: repeat-x;
+}
+
+p.star-1::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 17px;
+
+  background-image: url("../images/ratings_icon_star.svg");
+  background-size: 24px 17px;
+  background-repeat: repeat-x;
+}
+
+
 .hotel-card-ratings {
   display: flex;
+  margin: 0;
   justify-content: center;
   align-items: center;
   color: rgba(0, 0, 0, 1);
