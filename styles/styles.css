@@ -571,9 +571,29 @@ h3.service-title {
 
 .breadcrumbs {
   display: flex;
+  align-items: center;
+  width: 1060px;
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.breadcrumbs-item {
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrumbs-item:not(:last-of-type):after {
+  content: "";
+  display: flex;
+  width: 8px;
+  height: 21px;
+  margin: 0 10px;
+
+
+  background-image: url("../images/breadcrumbs_icons/breadcrumbs_icon_arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .breadcrumbs-link {
@@ -581,7 +601,18 @@ h3.service-title {
   text-decoration: none;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  margin-right: 28px;
+}
+
+.breadcrumbs-link-icon::after {
+  content: "";
+  display: flex;
+  width: 13px;
+  height: 21px;
+  margin: 0 auto;
+
+  background-image: url("../images/breadcrumbs_icons/breadcrumbs_icon_home.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /* Фильтры */
