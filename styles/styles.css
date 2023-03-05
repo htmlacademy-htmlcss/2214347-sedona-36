@@ -159,11 +159,14 @@ a.button {
   left: 20px;
 }
 
+.navigation-item.navigation-button {
+  margin-left: 20px;
+}
+
 .navigation-button .navigation-link {
   font-size: 16px;
   line-height: 20px;
 
-  margin-left: 20px;
   padding: 8px 34px;
 }
 
@@ -344,10 +347,6 @@ h3.service-title {
   width: 400px;
   min-height: 385px;
 }
-/*
-.service-item-text {
-  margin-top: 0;
-} */
 
 .service-item-text.house::after {
   content: "";
