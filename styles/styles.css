@@ -1041,9 +1041,34 @@ p.star-1::after {
   text-align: center;
 }
 
+.pagination-link:hover {
+  background-color: rgba(104, 162, 202, 1);
+  border: 1px solid rgba(130, 179, 211, 1);
+}
+
+.pagination-link:focus {
+  background-color: rgba(104, 162, 202, 1);
+  border: 1px solid rgba(130, 179, 211, 1);
+  outline: none;
+}
+
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(130, 179, 211, 1);
+}
+
 .pagination-current {
   color: rgba(0, 0, 0, 1);
   background-color: rgba(242, 242, 242, 1);
+}
+
+.pagination-current:hover,
+.pagination-current:focus,
+.pagination-current:active {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(242, 242, 242, 1);
+  border: none;
+  outline: none;
 }
 
 .pagination-multipoint {
@@ -1051,6 +1076,15 @@ p.star-1::after {
   line-height: 26px;
   color: rgba(0, 0, 0, 1);
   background-color: rgba(255, 255, 255, 1);
+}
+
+.pagination-multipoint:hover,
+.pagination-multipoint:focus,
+.pagination-multipoint:active {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
 }
 
 /* Блок подписки */
