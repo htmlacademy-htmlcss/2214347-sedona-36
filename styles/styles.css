@@ -869,6 +869,19 @@ h3.service-title {
   border: 2px solid rgba(0, 0, 0, 1);
 }
 
+.sorting-view .card-grid-toggle:hover {
+  border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.sorting-view .card-grid-toggle:focus {
+  border: 2px solid rgba(104, 162, 202, 1);
+  outline: none;
+}
+
+.sorting-view .card-grid-toggle:active {
+  border: 2px solid rgba(0, 0, 0, 1);
+}
+
 /* Карточки гостиниц */
 .hotel-list {
   display: grid;
