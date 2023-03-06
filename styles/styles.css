@@ -670,13 +670,16 @@ h3.service-title {
   margin-top: 32px;
 }
 
-.catalog-filter-wrapper-button .button-blue {
-  margin-bottom: 32px;
+.catalog-filter-wrapper-button .button {
   min-height: 36px;
 }
 
-.catalog-filter-wrapper-button .button {
-  min-height: 36px;
+.catalog-filter-wrapper-button .button-blue {
+  margin-bottom: 32px;
+}
+
+.catalog-filter-wrapper-button .button-background {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Сортировка */
