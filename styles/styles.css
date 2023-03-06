@@ -774,6 +774,8 @@ h3.service-title {
 }
 
 .control:active {
+  border: none;
+  outline: none;
   opacity: 0.3;
 }
 
