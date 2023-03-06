@@ -55,11 +55,50 @@ body {
   border-radius: 4px;
 }
 
-button.button-blue {
+.button:hover {
+  background-color: rgba(97, 80, 72, 1);
+}
+
+.button:focus {
+  background-color: rgba(97, 80, 72, 1);
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(117, 97, 87, 1);
+}
+
+.button.button-blue {
   background-color: rgba(130, 179, 211, 1);
 }
 
-button.button-green {
+.button.button-blue:hover {
+  background-color: rgba(104, 162, 202, 1);
+}
+
+.button.button-blue:focus {
+  background-color: rgba(104, 162, 202, 1);
+}
+
+.button.button-blue:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(130, 179, 211, 1);
+}
+
+.button.button-green {
+  background-color: rgba(125, 181, 79, 1);
+}
+
+.button.button-green:hover {
+  background-color: rgba(108, 158, 66, 1);
+}
+
+.button.button-green:focus {
+  background-color: rgba(108, 158, 66, 1);
+}
+
+.button.button-green:active {
+  color: rgba(255, 255, 255, 0.3);
   background-color: rgba(125, 181, 79, 1);
 }
 
@@ -180,15 +219,6 @@ a.button {
   line-height: 20px;
 
   padding: 8px 34px;
-}
-
-.navigation-button .navigation-link:hover {
-  background-color: rgba(97, 80, 72, 1);
-}
-
-.navigation-button .navigation-link:active {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(117, 97, 87, 1);
 }
 
 /* Основной контент */
@@ -453,19 +483,6 @@ h3.service-title {
   padding: 8px 50px;
 }
 
-/* .hotel-search .button-big:visited {
-  background-color: rgba(229, 229, 229, 1);
-} */
-
-.hotel-search .button-big:hover {
-  background-color: rgba(97, 80, 72, 1);
-}
-
-.hotel-search .button-big:active {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(117, 97, 87, 1);
-}
-
 
 /* Блок подписки */
 .subscribe {
@@ -501,17 +518,8 @@ h3.service-title {
   box-sizing: border-box;
 }
 
-.subscribe-button {
+.subscribe-form .button {
   min-width: 232px;
-}
-
-.subscribe-form .subscribe-button:hover {
-  background-color: rgba(104, 162, 202, 1);
-}
-
-.subscribe-form .subscribe-button:active {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(130, 179, 211, 1);
 }
 
 
@@ -755,12 +763,36 @@ h3.service-title {
   line-height: 23px;
 }
 
+.control:hover {
+  opacity: 0.6;
+}
+
+.control .conrol-input:focus {
+  border: 3px solid rgba(131, 179, 211, 1);
+  border-radius: 4px;
+  outline: none;
+}
+
+.control:active {
+  opacity: 0.3;
+}
+
 .catalog-filter-wrapper-button {
   display: flex;
   flex-direction: column;
   width: 190px;
   margin-top: 32px;
 }
+
+/* .catalog-filter-item .control-input:hover {
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.catalog-filter-item:first-of-type .conrol-input:focus {
+  background: #E6E6E6;
+  border: 3px solid #83B3D3;
+  border-radius: 4px 0px 0px 4px;
+} */
 
 .catalog-filter-wrapper-button .button {
   min-height: 36px;
@@ -772,6 +804,18 @@ h3.service-title {
 
 .catalog-filter-wrapper-button .button-background {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog-filter-wrapper-button .button-background:hover {
+  opacity: 0.6;
+}
+
+.catalog-filter-wrapper-button .button-background:focus {
+  border: 3px solid rgba(131, 179, 211, 1);
+}
+
+.catalog-filter-wrapper-button .button-background:active {
+  opacity: 0.3;
 }
 
 /* Сортировка */
