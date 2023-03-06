@@ -892,6 +892,19 @@ h3.service-title {
   margin: 0 70px 80px;
   padding: 0;
   list-style-type: none;
+
+  position: relative;
+}
+
+.hotel-list::after {
+  content: "";
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -40px;
+  border: 1px solid rgba(230, 230, 230, 1);
+
 }
 
 .hotel-item {
