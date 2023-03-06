@@ -100,6 +100,18 @@ a.button {
   text-decoration: none;
   text-align: center;
   color: rgba(0, 0, 0, 1);
+
+  position: relative;
+}
+
+.navigation-link-current::before {
+  content: "";
+
+  position: absolute;
+  right: 16px;
+  left: 16px;
+  bottom: -2px;
+  border: 2px solid rgba(117, 98, 87, 1);
 }
 
 .navigation-logo {
@@ -168,6 +180,15 @@ a.button {
   line-height: 20px;
 
   padding: 8px 34px;
+}
+
+.navigation-button .navigation-link:hover {
+  background-color: rgba(97, 80, 72, 1);
+}
+
+.navigation-button .navigation-link:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(117, 97, 87, 1);
 }
 
 /* Основной контент */
@@ -432,6 +453,20 @@ h3.service-title {
   padding: 8px 50px;
 }
 
+/* .hotel-search .button-big:visited {
+  background-color: rgba(229, 229, 229, 1);
+} */
+
+.hotel-search .button-big:hover {
+  background-color: rgba(97, 80, 72, 1);
+}
+
+.hotel-search .button-big:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(117, 97, 87, 1);
+}
+
+
 /* Блок подписки */
 .subscribe {
   color: rgba(255, 255, 255, 1);
@@ -463,10 +498,20 @@ h3.service-title {
 
 .subscribe-input {
   flex-grow: 1;
+  box-sizing: border-box;
 }
 
 .subscribe-button {
   min-width: 232px;
+}
+
+.subscribe-form .subscribe-button:hover {
+  background-color: rgba(104, 162, 202, 1);
+}
+
+.subscribe-form .subscribe-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(130, 179, 211, 1);
 }
 
 
@@ -495,37 +540,27 @@ h3.service-title {
   list-style-type: none;
 }
 
-.footer-social-vkontakte {
+.footer-social-link {
   display: block;
   width: 47px;
   height: 40px;
-  background-color: rgba(255, 255, 255, 1);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px 14px;
-  background-image: url("../images/footer_icons/vkontakte.svg");
+  text-decoration: none;
+
+  position: relative;
 }
 
-.footer-social-telegram {
-  display: block;
-  width: 47px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 1);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 18px 16px;
-  background-image: url("../images/footer_icons/telegram.svg");
+.footer-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: rgba(131, 179, 211, 1);
 }
 
-.footer-social-youtube {
-  display: block;
-  width: 47px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 1);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 18px 16px;
-  background-image: url("../images/footer_icons/youtube.svg");
+.footer-social-link:active .footer-icon {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-contacts-phone {
@@ -538,9 +573,53 @@ h3.service-title {
   font-style: normal;
 }
 
+.footer-contacts-phone:hover {
+  color: rgba(117, 97, 87, 1);
+}
+
+.footer-contacts-phone:focus {
+  color: rgba(117, 97, 87, 1);
+}
+
+.footer-contacts-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+
 .footer-logo {
   margin-left: auto;
-  max-width: 115px;
+  width: 115px;
+}
+
+.footer-logo-link {
+  display: block;
+  width: 115px;
+  height: 34px;
+  text-decoration: none;
+
+  position: relative;
+}
+
+.footer-logo-link-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: rgba(0, 0, 0, 1);
+}
+
+.footer-logo-link-icon:hover {
+  fill: rgba(117, 97, 87, 1);
+}
+
+.footer-logo-link-icon:focus {
+  fill: rgba(117, 97, 87, 1);
+}
+
+.footer-logo-link-icon:active {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 /*Оформление внутренних странниц*/
