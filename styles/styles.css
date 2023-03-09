@@ -258,7 +258,6 @@ a.button {
   height: 57px;
   background-repeat: no-repeat;
   margin-top: 25px;
-
 }
 
 /* Блок преимуществ */
@@ -871,6 +870,17 @@ h3.service-title {
   height: 48px;
   margin-right: 8px;
   background-color: rgba(255, 255, 255, 1);
+
+  position: relative;
+}
+
+.card-grid-toggle-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .sorting-view .card-grid-toggle:last-child {
