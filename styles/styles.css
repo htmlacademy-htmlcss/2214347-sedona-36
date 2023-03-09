@@ -130,6 +130,26 @@ a.button {
   position: relative;
 }
 
+.navigation-logo {
+  display: flex;
+  align-items: center;
+  width: 140px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: 170px;
+  padding: 0;
+  list-style-type: none;
+}
+
+
 .navigation-link {
   display: block;
   padding: 20px 16px;
@@ -153,25 +173,6 @@ a.button {
   border: 2px solid rgba(117, 98, 87, 1);
 }
 
-.navigation-logo {
-  display: flex;
-  align-items: center;
-  width: 140px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.navigation-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  margin-left: 170px;
-  padding: 0;
-  list-style-type: none;
-}
-
 .navigation-user {
   max-width: 315px;
   margin-left: auto;
@@ -183,7 +184,7 @@ a.button {
   min-width: 20px;
   min-height: 20px;
   padding: 22px 12px;
-  height: 20px;
+  /* height: 20px; */
 }
 
 .navigation-item .heart {
@@ -208,6 +209,15 @@ a.button {
   position: absolute;
   top: 11px;
   left: 20px;
+}
+
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .navigation-item.navigation-button {
