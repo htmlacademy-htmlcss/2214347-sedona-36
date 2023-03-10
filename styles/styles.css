@@ -771,32 +771,82 @@ h3.service-title {
   margin: 0;
 }
 
-.catalog-filter-item {
+.catalog-filter-item:not(:last-child) {
   margin-bottom: 16px;
 }
 
-.catalog-filter-item:last-child {
-  margin-bottom: 0;
-}
-
 .control {
-  line-height: 23px;
+  position: relative;
+  display: block;
+  padding-left: 36px;
 }
 
 .control:hover {
   opacity: 0.6;
 }
 
-.control .conrol-input:focus {
-  border: 3px solid rgb(131, 179, 211);
-  border-radius: 4px;
-  outline: none;
-}
+/*
+.control:focus {
+  color: rgb(255, 255, 255);
+} */
 
 .control:active {
   border: none;
   outline: none;
   opacity: 0.3;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+.control:hover .control-mark {
+  opacity: 0.6;
+}
+
+
+.control:focus .control-mark {
+  border: 3px solid rgb(131, 179, 211);
+  border-radius: 4px;
+  outline: none;
+}
+
+.control:active .control-mark {
+  opacity: 0.3;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark {
+  background-image: url(../images/checkmark.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.control-label {
+  line-height: 23px;
+}
+
+/* Радио-кнопки */
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(63, 94, 114);
+  border-radius: 50%;
+  content: "";
 }
 
 .catalog-filter-group-price {
