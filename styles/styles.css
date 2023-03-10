@@ -24,8 +24,8 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(242, 242, 242, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 242, 242);
 }
 
 .visually-hidden {
@@ -45,8 +45,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(117, 97, 87, 1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(117, 97, 87);
   text-decoration: none;
   text-transform: uppercase;
   padding: 0;
@@ -56,54 +56,54 @@ body {
 }
 
 .button:hover {
-  background-color: rgba(97, 80, 72, 1);
+  background-color: rgb(97, 80, 72);
 }
 
 .button:focus {
-  background-color: rgba(97, 80, 72, 1);
+  background-color: rgb(97, 80, 72);
 }
 
 .button:active {
   color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(117, 97, 87, 1);
+  background-color: rgb(117, 97, 87);
 }
 
 .button.button-blue {
-  background-color: rgba(130, 179, 211, 1);
+  background-color: rgb(130, 179, 211);
 }
 
 .button.button-blue:hover {
-  background-color: rgba(104, 162, 202, 1);
+  background-color: rgb(104, 162, 202);
 }
 
 .button.button-blue:focus {
-  background-color: rgba(104, 162, 202, 1);
+  background-color: rgb(104, 162, 202);
 }
 
 .button.button-blue:active {
   color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(130, 179, 211, 1);
+  background-color: rgb(130, 179, 211);
 }
 
 .button.button-green {
-  background-color: rgba(125, 181, 79, 1);
+  background-color: rgb(125, 181, 79);
 }
 
 .button.button-green:hover {
-  background-color: rgba(108, 158, 66, 1);
+  background-color: rgb(108, 158, 66);
 }
 
 .button.button-green:focus {
-  background-color: rgba(108, 158, 66, 1);
+  background-color: rgb(108, 158, 66);
 }
 
 .button.button-green:active {
   color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(125, 181, 79, 1);
+  background-color: rgb(125, 181, 79);
 }
 
 a.button {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
 }
 
 /* ОФормление страниц */
@@ -113,13 +113,13 @@ a.button {
   min-height: 100%;
   width: 1200px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Шапка главной страницы*/
 .page-header {
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 .navigation {
@@ -158,7 +158,7 @@ a.button {
   line-height: 24px;
   text-decoration: none;
   text-align: center;
-  color: rgba(0, 0, 0, 1);
+  color: rgb(0, 0, 0);
 
   position: relative;
 }
@@ -170,7 +170,7 @@ a.button {
   right: 16px;
   left: 16px;
   bottom: -2px;
-  border: 2px solid rgba(117, 98, 87, 1);
+  border: 2px solid rgb(117, 98, 87);
 }
 
 .navigation-user {
@@ -184,7 +184,6 @@ a.button {
   min-width: 20px;
   min-height: 20px;
   padding: 22px 12px;
-  /* height: 20px; */
 }
 
 .navigation-item .heart {
@@ -196,8 +195,8 @@ a.button {
   font-weight: 400;
   font-size: 10px;
   line-height: 10px;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(125, 181, 79, 1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(125, 181, 79);
 
   display: flex;
   justify-content: center;
@@ -239,8 +238,8 @@ a.button {
 /* Блок хиро */
 .hero {
   padding-top: 51px;
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   background-image: url("../images/block_hero/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -314,14 +313,14 @@ header .service-description,
   align-items: center;
   width: 400px;
   min-height: 385px;
-  color: rgba(0, 0, 0, 1);
+  color: rgb(0, 0, 0);
   background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-bridge,
 .advantages-town {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(130, 179, 211, 1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(130, 179, 211);
   width: 1200px;
 }
 
@@ -495,8 +494,8 @@ h3.service-title {
 
 /* Блок подписки */
 .subscribe {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   background-image: url(../images/subscribe.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -529,14 +528,14 @@ h3.service-title {
   padding: 12px 20px;
   font: inherit;
   font-weight: 400;
-  background-color: rgba(242, 242, 242, 1);
-  border: 2px solid rgba(242, 242, 242, 1);
+  background-color: rgb(242, 242, 242);
+  border: 2px solid rgb(242, 242, 242);
   border-radius: 4px 0 0 4px;
 }
 
 .subscribe-input::placeholder {
   line-height: 24px;
-  color: rgba(0, 0, 0, 1);
+  color: rgb(0, 0, 0);
   opacity: 0.6;
 }
 
@@ -587,7 +586,7 @@ h3.service-title {
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: rgba(131, 179, 211, 1);
+  fill: rgb(131, 179, 211);
 }
 
 .footer-social-link:active .footer-icon {
@@ -595,7 +594,7 @@ h3.service-title {
 }
 
 .footer-contacts-phone {
-  color: rgba(0, 0, 0, 1);
+  color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -605,11 +604,11 @@ h3.service-title {
 }
 
 .footer-contacts-phone:hover {
-  color: rgba(117, 97, 87, 1);
+  color: rgb(117, 97, 87);
 }
 
 .footer-contacts-phone:focus {
-  color: rgba(117, 97, 87, 1);
+  color: rgb(117, 97, 87);
 }
 
 .footer-contacts-phone:active {
@@ -638,15 +637,15 @@ h3.service-title {
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: rgba(0, 0, 0, 1);
+  fill: rgb(0, 0, 0);
 }
 
 .footer-logo-link-icon:hover {
-  fill: rgba(117, 97, 87, 1);
+  fill: rgb(117, 97, 87);
 }
 
 .footer-logo-link-icon:focus {
-  fill: rgba(117, 97, 87, 1);
+  fill: rgb(117, 97, 87);
 }
 
 .footer-logo-link-icon:active {
@@ -656,8 +655,8 @@ h3.service-title {
 /*Оформление внутренних странниц*/
 
 .index-columns {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   background-image: url(../images/catalog_header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -710,7 +709,7 @@ h3.service-title {
   font-size: 16px;
   text-decoration: none;
   text-align: center;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -719,7 +718,7 @@ h3.service-title {
 }
 
 .breadcrumbs-link:focus {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
 }
 
 .breadcrumbs-link:active {
@@ -791,7 +790,7 @@ h3.service-title {
 }
 
 .control .conrol-input:focus {
-  border: 3px solid rgba(131, 179, 211, 1);
+  border: 3px solid rgb(131, 179, 211);
   border-radius: 4px;
   outline: none;
 }
@@ -836,7 +835,7 @@ h3.service-title {
 }
 
 .catalog-filter-wrapper-button .button-background:focus {
-  border: 3px solid rgba(131, 179, 211, 1);
+  border: 3px solid rgb(131, 179, 211);
 }
 
 .catalog-filter-wrapper-button .button-background:active {
@@ -878,12 +877,12 @@ h3.service-title {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  border: 2px solid rgba(229, 229, 229, 1);
+  border: 2px solid rgb(229, 229, 229);
   border-radius: 4px;
   width: 48px;
   height: 48px;
   margin-right: 8px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
 
   position: relative;
 }
@@ -902,20 +901,20 @@ h3.service-title {
 }
 
 .sorting-view .card-grid-toggle-current {
-  border: 2px solid rgba(0, 0, 0, 1);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .sorting-view .card-grid-toggle:hover {
-  border: 2px solid rgba(0, 0, 0, 1);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .sorting-view .card-grid-toggle:focus {
-  border: 2px solid rgba(104, 162, 202, 1);
+  border: 2px solid rgb(104, 162, 202);
   outline: none;
 }
 
 .sorting-view .card-grid-toggle:active {
-  border: 2px solid rgba(0, 0, 0, 1);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 /* Карточки гостиниц */
@@ -937,14 +936,14 @@ h3.service-title {
   right: 0;
   left: 0;
   bottom: -40px;
-  border: 1px solid rgba(230, 230, 230, 1);
+  border: 1px solid rgb(230, 230, 230);
 
 }
 
 .hotel-item {
   box-sizing: border-box;
   padding: 20px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid rgb(230, 230, 230);
   border-radius: 4px;
 }
 
@@ -962,7 +961,7 @@ h3.service-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color: rgba(0, 0, 0, 1);
+  color: rgb(0, 0, 0);
   margin: 16px 0;
   text-align: left;
 }
@@ -1051,8 +1050,8 @@ p.star-1::after {
   margin: 0;
   justify-content: center;
   align-items: center;
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(242, 242, 242, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 242, 242);
 }
 
 /* Пагинация */
@@ -1079,8 +1078,8 @@ p.star-1::after {
   font-size: 20px;
   line-height: 36px;
   text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(130, 179, 211, 1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(130, 179, 211);
   display: block;
   box-sizing: border-box;
   border-radius: 4px;
@@ -1091,31 +1090,31 @@ p.star-1::after {
 }
 
 .pagination-link:hover {
-  background-color: rgba(104, 162, 202, 1);
-  border: 1px solid rgba(130, 179, 211, 1);
+  background-color: rgb(104, 162, 202);
+  border: 1px solid rgb(130, 179, 211);
 }
 
 .pagination-link:focus {
-  background-color: rgba(104, 162, 202, 1);
-  border: 1px solid rgba(130, 179, 211, 1);
+  background-color: rgb(104, 162, 202);
+  border: 1px solid rgb(130, 179, 211);
   outline: none;
 }
 
 .pagination-link:active {
   color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(130, 179, 211, 1);
+  background-color: rgb(130, 179, 211);
 }
 
 .pagination-current {
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(242, 242, 242, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 242, 242);
 }
 
 .pagination-current:hover,
 .pagination-current:focus,
 .pagination-current:active {
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(242, 242, 242, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 242, 242);
   border: none;
   outline: none;
 }
@@ -1123,23 +1122,23 @@ p.star-1::after {
 .pagination-multipoint {
   font-size: 22px;
   line-height: 26px;
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 .pagination-multipoint:hover,
 .pagination-multipoint:focus,
 .pagination-multipoint:active {
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border: none;
   outline: none;
 }
 
 /* Блок подписки */
 .subscribe-inner {
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   text-align: center;
   padding-top: 96px;
   padding-bottom: 104px;
