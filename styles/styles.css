@@ -871,6 +871,7 @@ h3.service-title {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
+  padding: 0;
   color: rgb(0, 0, 0);
   opacity: 0.3;
 }
@@ -1033,7 +1034,38 @@ h3.service-title {
 }
 
 .sorting-select {
+  display: flex;
+  align-items: center;
+  width: 292px;
   margin-left: 200px;
+
+  position: relative;
+}
+
+/* Control */
+.select-control {
+  width: 100%;
+  padding: 14px 20px;
+  padding-right: 48px;
+  font: inherit;
+  font-weight: 400;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 4px;
+  background-image: url("../images/select_arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
+}
+
+.select-control:hover,
+.select-control:focus {
+  border-color: rgb(104, 162, 202);
+  outline: none;
+}
+
+.select-control:active {
+  border-color: rgb(63, 94, 114);
+  outline: none;
 }
 
 .sorting-view {
