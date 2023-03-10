@@ -1047,6 +1047,7 @@ h3.service-title {
 /* Control */
 .select-control {
   width: 100%;
+  height: 49px;
   padding: 14px 20px;
   padding-right: 48px;
   font: inherit;
