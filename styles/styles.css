@@ -805,6 +805,8 @@ h3.service-title {
   margin-right: 70px;
 }
 
+/* Ползунок цены */
+
 .range-wrapper-inputs {
   display: flex;
   justify-content: center;
@@ -927,22 +929,14 @@ h3.service-title {
   right: -10px;
 }
 
+/* Кнопки фильтров */
+
 .catalog-filter-wrapper-button {
   display: flex;
   flex-direction: column;
   width: 190px;
   margin-top: 56px;
 }
-
-/* .catalog-filter-item .control-input:hover {
-  background-color: rgba(230, 230, 230, 1);
-}
-
-.catalog-filter-item:first-of-type .conrol-input:focus {
-  background: #E6E6E6;
-  border: 3px solid #83B3D3;
-  border-radius: 4px 0px 0px 4px;
-} */
 
 .catalog-filter-wrapper-button .button {
   min-height: 36px;
