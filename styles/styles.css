@@ -653,6 +653,8 @@ h3.service-title {
   fill: rgba(117, 97, 87, 0.3);
 }
 
+/* Модальное окно */
+
 .modal-container {
   position: fixed;
   top: 0;
@@ -739,6 +741,11 @@ h3.service-title {
   margin-right: 46px;
 }
 
+.field-group-label-icon {
+  position: relative;
+  padding-right: 16px;
+}
+
 .field-group-label-tooltip {
   width: 85px;
 }
@@ -765,21 +772,6 @@ h3.service-title {
   width: 20px;
   height: 20px;
   background-image: url("../images/modal_window/form_icon_date.svg");
-  background-repeat: no-repeat;
-  content: "";
-}
-
-.field-group-label-tooltip {
-  position: relative;
-}
-
-.field-group-label-tooltip::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 26px;
-  height: 26px;
-  background-image: url("../images/modal_window/icon_tooltip.svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -840,7 +832,84 @@ h3.service-title {
   opacity: 0.6;
 }
 
+/* Тултип */
 
+.tooltip {
+  position: absolute;
+  margin-top: 0;
+  margin-left: -36px;
+  width: 26px;
+  height: 26px;
+
+}
+
+.tooltip-toggle {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-color: transparent;
+}
+
+.tooltip-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tooltip-toggle:hover {
+  outline: 3px solid #83B3D3;
+  border-radius: 50%;
+}
+
+.tooltip-toggle:focus {
+  outline: 4px solid #83B3D3;
+  border-radius: 50%;
+}
+
+.tooltip-triangle {
+  width: 19px;
+  height: 9px;
+  background-image: url("../images/modal_window/icon_triangle.svg");
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 4.5px;
+
+  display: none;
+}
+
+.tooltip-text {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+
+  text-transform: none;
+  padding: 18px 22px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 216px;
+
+  position: absolute;
+  top: calc(100% + 6px + 9px);
+  right: -128px;
+
+  display: none;
+}
+
+.tooltip-toggle:hover + .tooltip-triangle,
+.tooltip-toggle:focus + .tooltip-triangle {
+  display: block;
+}
+
+.tooltip-toggle:hover ~ .tooltip-text,
+.tooltip-toggle:focus ~ .tooltip-text {
+  display: block;
+}
 
 
 
