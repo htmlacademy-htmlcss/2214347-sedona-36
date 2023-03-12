@@ -692,10 +692,31 @@ h3.service-title {
   border-radius: 50%;
   background-color: rgb(242, 242, 242);
   border: none;
-  background-image: url("../images/modal_window/button_close.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.modal-close-button:focus {
+  outline: 3px solid rgb(131, 179, 211);
+}
+
+.modal-close-button:active {
+  background-color: rgb(242, 242, 242);
+}
+
+.modal-close-button-icon {
+  width: 14px;
+  height: 14px;
+  margin: 0 auto;
+  display: block;
+  fill: rgb(0, 0, 0);
+}
+
+.modal-close-button:active .modal-close-button-icon {
+  opacity: 0.3;
 }
 
 .modal-title {
@@ -727,7 +748,6 @@ h3.service-title {
 .wrapper-field-group-small {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .field-group-label {
@@ -735,6 +755,14 @@ h3.service-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.field-group-small:nth-of-type(2n+1) {
+  margin-right: 88px;
+
 }
 
 .field-group-small .field-group-label {
@@ -743,7 +771,10 @@ h3.service-title {
 
 .field-group-label-icon {
   position: relative;
-  padding-right: 16px;
+}
+
+.field-group-label-icon .field-group-label {
+  padding-right: 36px;
 }
 
 .field-group-label-tooltip {
@@ -765,16 +796,20 @@ h3.service-title {
   padding: 12px 20px;
 }
 
-.field-group-date::before {
-  position: absolute;
-  top: 14px;
-  right: 20px;
-  width: 20px;
-  height: 20px;
-  background-image: url("../images/modal_window/form_icon_date.svg");
-  background-repeat: no-repeat;
-  content: "";
+.search-hotel-form .field:hover {
+  background-color: rgb(230, 230, 230);
 }
+
+.search-hotel-form .field:focus {
+  outline: 3px solid rgb(131, 179, 211);
+}
+
+.search-hotel-form .field:active {
+  outline: 2px solid rgb(0,0,0);
+}
+
+
+
 
 .search-hotel-form .field-small {
   width: 110px;
@@ -782,31 +817,6 @@ h3.service-title {
   text-align: center;
 
   position: relative;
-}
-
-.search-hotel-form .field-group-small::before {
-  position: absolute;
-  top: 14px;
-  right: 80px;
-  width: 20px;
-  height: 20px;
-  background-image: url("../images/modal_window/icon_minus.svg");
-  background-repeat: no-repeat;
-  z-index: 1;
-  content: "";
-
-}
-
-.search-hotel-form .field-group-small::after {
-  position: absolute;
-  top: 14px;
-  right: 10px;
-  width: 20px;
-  height: 20px;
-  background-image: url("../images/modal_window/icon_plus.svg");
-  background-repeat: no-repeat;
-  content: "";
-
 }
 
 .search-hotel-form .field-small::-webkit-outer-spin-button,
@@ -832,12 +842,79 @@ h3.service-title {
   opacity: 0.6;
 }
 
+.field-group-label.field-group-label-icon {
+  margin: 0;
+}
+
+
+
+
+/* Кнопки и иконки внутри инпутов */
+
+.field-button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.field-button:focus {
+  outline: 3px solid #82B3D3;
+  border-radius: 4px;
+}
+
+.field-button-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: rgba(117, 97, 87, 0.3);
+}
+
+.field-button-icon:hover {
+  fill: rgb(0, 0, 0);
+}
+
+.field-button:focus .field-button-icon {
+  fill: rgb(0, 0, 0);
+}
+
+.field-button:active .field-button-icon {
+  fill: rgba(117, 97, 87, 0.3);
+}
+
+.field-button-date {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  z-index: 1;
+}
+
+.field-button-minus {
+  position: absolute;
+  top: 14px;
+  right: 81px;
+  z-index: 1;
+}
+
+.field-button-plus {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  z-index: 1;
+}
+
+
+
 /* Тултип */
 
 .tooltip {
   position: absolute;
-  margin-top: 0;
-  margin-left: -36px;
+  top: -1px;
+  right: 46px;
   width: 26px;
   height: 26px;
 
@@ -846,7 +923,7 @@ h3.service-title {
 .tooltip-toggle {
   border: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: block;
   background-color: transparent;
 }
