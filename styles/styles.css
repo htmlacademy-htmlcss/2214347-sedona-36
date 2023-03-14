@@ -771,15 +771,8 @@ h3.service-title {
 }
 
 .field-group-label-icon {
+  max-width: 85px;
   position: relative;
-}
-
-.field-group-label-icon .field-group-label {
-  padding-right: 36px;
-}
-
-.field-group-label-tooltip {
-  width: 85px;
 }
 
 .search-hotel-form .field {
@@ -843,9 +836,6 @@ h3.service-title {
   opacity: 0.6;
 }
 
-.field-group-label.field-group-label-icon {
-  margin: 0;
-}
 
 
 /* Коментарии к датам в модальном окне */
@@ -938,7 +928,7 @@ h3.service-title {
 .tooltip {
   position: absolute;
   top: -1px;
-  right: 46px;
+  right: 0;
   width: 26px;
   height: 26px;
 
