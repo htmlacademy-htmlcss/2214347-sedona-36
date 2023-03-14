@@ -665,9 +665,10 @@ h3.service-title {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-.modal-container-close {
+/* Доп. класс, чтобы закрыть модальное окно */
+/* .modal-container-close {
   display: none;
-}
+} */
 
 .modal {
   position: relative;
@@ -805,7 +806,7 @@ h3.service-title {
 }
 
 .search-hotel-form .field:active {
-  outline: 2px solid rgb(0,0,0);
+  outline: 2px solid rgb(0, 0, 0);
 }
 
 
@@ -847,6 +848,29 @@ h3.service-title {
 }
 
 
+/* Коментарии к датам в модальном окне */
+
+.comments {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgb(51, 51, 51);
+
+  position: absolute;
+  top: 52px;
+  left: 157px;
+}
+
+.comments-error {
+  color: rgb(255, 87, 87);
+}
+
+/* Доп. класс коментариям, чтобы их скрыть */
+/* .comments-close {
+  display: none;
+} */
 
 
 /* Кнопки и иконки внутри инпутов типа number*/
