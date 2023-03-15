@@ -156,6 +156,7 @@ a.button {
   margin-left: 170px;
   padding: 0;
   list-style-type: none;
+  max-width: 340px;
 }
 
 
@@ -270,8 +271,7 @@ a.button {
 
 /* Блок преимуществ */
 .advantages-header {
-  padding-top: 69px;
-  padding-bottom: 69px;
+  padding: 69px 274.5px;
   margin-bottom: 21px;
 }
 
@@ -338,7 +338,7 @@ header .service-description,
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 230px;
+  padding: 103px 85px;
 }
 
 .advantages-title,
@@ -396,8 +396,7 @@ header .service-description,
 
 /* Блок сервиса */
 .service-header {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 64px 347.5px;
 }
 
 h3.service-title {
@@ -414,6 +413,10 @@ h3.service-title {
   align-items: center;
   width: 400px;
   min-height: 385px;
+}
+
+.service-item-text {
+  padding: 80px 85px;
 }
 
 .service-item-text.house::after {
@@ -476,8 +479,7 @@ h3.service-title {
 /* Блок поиска гостиницы */
 .hotel-search {
   text-align: center;
-  padding-bottom: 96px;
-  padding-top: 96px;
+  padding: 96px 304px;
 }
 
 .button-big {
@@ -509,8 +511,7 @@ h3.service-title {
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
-  padding-top: 96px;
-  padding-bottom: 104px;
+  padding: 96px 258px 104px;
 }
 
 .subscribe-title {
@@ -624,6 +625,10 @@ h3.service-title {
 
 .footer-social-link:active .footer-icon {
   fill: rgba(104, 162, 202, 0.3);
+}
+
+.footer-contacts {
+  max-width: 331px;
 }
 
 .footer-contacts-phone {
