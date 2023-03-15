@@ -114,7 +114,7 @@ a.button {
   color: rgb(255, 255, 255);
 }
 
-/* ОФормление страниц */
+/* Оформление страниц */
 .wrapper-content {
   display: flex;
   flex-direction: column;
@@ -910,7 +910,7 @@ h3.service-title {
 
 
 
-/* Коментарии к датам в модальном окне */
+/* Комментарии к датам в модальном окне */
 
 .comments {
   font-family: 'PT Sans';
@@ -929,7 +929,7 @@ h3.service-title {
   color: rgb(255, 87, 87);
 }
 
-/* Доп. класс коментариям, чтобы их скрыть */
+/* Доп. класс комментариям, чтобы их скрыть */
 /* .comments-close {
   display: none;
 } */
