@@ -57,7 +57,7 @@ body {
   background-color: rgb(117, 97, 87);
   text-decoration: none;
   text-transform: uppercase;
-  padding: 0;
+  padding: 8px 50px;
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -1092,13 +1092,11 @@ h3.service-title {
   background-image: url(../images/catalog_header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 35px;
-  padding-bottom: 70px;
+  padding: 35px 70px 70px;
 }
 
 /* Шапка внутренней страницы */
 .inner-header {
-  margin-left: 70px;
   margin-bottom: 40px;
 }
 
@@ -1112,8 +1110,8 @@ h3.service-title {
 
 .breadcrumbs {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  width: 1060px;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1172,7 +1170,6 @@ h3.service-title {
 /* Фильтры */
 .catalog-filter {
   display: flex;
-  width: 1060px;
   margin: 0 auto;
 }
 
@@ -1497,6 +1494,7 @@ h3.service-title {
   text-transform: uppercase;
   margin-right: auto;
   margin: 0;
+  max-width: 338px;
 }
 
 .sorting-select {
@@ -1667,20 +1665,29 @@ h3.service-title {
   min-height: 21px;
 }
 
-.hotel-card-description .hotel-card-button-more {
+.button.hotel-card-button-more {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  min-height: 36px;
+  padding: 8px 26px;
 }
 
-p.stars {
+.hotel-card-description .button-blue {
+  padding: 8px 20px;
+}
+
+.hotel-card-description .button-green {
+  padding: 8px 18px;
+}
+
+.hotel-card-description .stars {
   display: flex;
   align-items: center;
   margin: 0;
 }
 
-p.star-4::after {
+.hotel-card-description .star-4::after {
   content: "";
   display: block;
   width: 96px;
@@ -1691,7 +1698,7 @@ p.star-4::after {
   background-repeat: repeat-x;
 }
 
-p.star-3::after {
+.hotel-card-description .star-3::after {
   content: "";
   display: block;
   width: 72px;
@@ -1702,7 +1709,7 @@ p.star-3::after {
   background-repeat: repeat-x;
 }
 
-p.star-2::after {
+.hotel-card-description .star-2::after {
   content: "";
   display: block;
   width: 48px;
@@ -1713,7 +1720,7 @@ p.star-2::after {
   background-repeat: repeat-x;
 }
 
-p.star-1::after {
+.hotel-card-description .star-1::after {
   content: "";
   display: block;
   width: 24px;
@@ -1730,6 +1737,7 @@ p.star-1::after {
   margin: 0;
   justify-content: center;
   align-items: center;
+  padding: 9px 22px 8px 23px;
   color: rgb(0, 0, 0);
   background-color: rgb(242, 242, 242);
 }
@@ -1763,8 +1771,8 @@ p.star-1::after {
   display: block;
   box-sizing: border-box;
   border-radius: 4px;
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
   padding: 11px 11px;
   text-align: center;
 }
@@ -1820,8 +1828,7 @@ p.star-1::after {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   text-align: center;
-  padding-top: 96px;
-  padding-bottom: 104px;
+  padding: 96px 258px 104px;
 }
 
 .subscribe-inner-title {
