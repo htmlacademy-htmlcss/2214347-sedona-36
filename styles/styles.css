@@ -1170,6 +1170,7 @@ h3.service-title {
 /* Фильтры */
 .catalog-filter {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -1182,7 +1183,7 @@ h3.service-title {
   border: none;
 }
 
-.catalog-filter-group:first-of-type {
+.catalog-filter-group {
   margin-right: 70px;
 }
 
@@ -1280,8 +1281,7 @@ h3.service-title {
 
 .catalog-filter-group-price {
   width: 288px;
-  margin-left: 140px;
-  margin-right: 70px;
+  margin-left: 70px;
 }
 
 /* Ползунок цены */
@@ -1537,6 +1537,7 @@ h3.service-title {
 
 .sorting-view {
   display: flex;
+  flex-wrap: wrap;
   margin-left: auto;
   width: 160px;
 }
@@ -1565,7 +1566,7 @@ h3.service-title {
   margin: auto;
 }
 
-.sorting-view .card-grid-toggle:last-child {
+.sorting-view .card-grid-toggle:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -1745,6 +1746,7 @@ h3.service-title {
 /* Пагинация */
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   width: 1060px;
   margin: 0 auto;
   margin-top: 80px;
@@ -1755,6 +1757,7 @@ h3.service-title {
 
 .pagination-item {
   margin-right: 8px;
+  margin-bottom: 5px;
 }
 
 .pagination-item:last-child {
