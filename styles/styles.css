@@ -698,9 +698,9 @@ h3.service-title {
 }
 
 /* Доп. класс, чтобы закрыть модальное окно */
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
 
 .modal {
   position: relative;
