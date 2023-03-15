@@ -275,7 +275,7 @@ a.button {
   margin-bottom: 21px;
 }
 
-h3.advantages-title {
+.advantages-header .advantages-title {
   margin-top: 0;
   margin-bottom: 25px;
 }
@@ -338,11 +338,12 @@ header .service-description,
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 103px 85px;
+  padding: 102px 85px;
 }
 
 .advantages-title,
 .service-title {
+  margin: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -853,7 +854,7 @@ h3.service-title {
 .search-hotel-form .field-small::-webkit-outer-spin-button,
 .search-hotel-form .field-small::-webkit-inner-spin-button {
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   margin: 0;
 }
 
@@ -1390,7 +1391,7 @@ h3.service-title {
 .control-range-input::-webkit-outer-spin-button,
 .control-range-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   margin: 0;
 }
 
@@ -1520,8 +1521,8 @@ h3.service-title {
   background-repeat: no-repeat;
   background-position: right 20px center;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .select-control:hover,
@@ -1616,7 +1617,7 @@ h3.service-title {
 
 .hotel-item {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 19px;
   border: 1px solid rgb(230, 230, 230);
   border-radius: 4px;
 }
@@ -1629,7 +1630,7 @@ h3.service-title {
 .hotel-card-image {
   vertical-align: middle;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .hotel-card-title {
@@ -1647,8 +1648,8 @@ h3.service-title {
   -ms-grid-columns: 140px 20px 140px;
   grid-template-columns: repeat(2, 140px);
   -webkit-column-gap: 20px;
-     -moz-column-gap: 20px;
-          column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
   row-gap: 16px;
 }
 
@@ -1734,13 +1735,20 @@ h3.service-title {
 
 
 .hotel-card-ratings {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 242, 242);
+
   display: flex;
+  box-sizing: border-box;
   margin: 0;
   justify-content: center;
   align-items: center;
   padding: 9px 22px 8px 23px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(242, 242, 242);
+
 }
 
 /* Пагинация */
@@ -1750,7 +1758,7 @@ h3.service-title {
   width: 1060px;
   margin: 0 auto;
   margin-top: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 55px;
   padding: 0;
   list-style-type: none;
 }
