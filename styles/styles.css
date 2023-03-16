@@ -123,6 +123,7 @@ a.button {
   width: 1200px;
   margin: 0 auto;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Шапка главной страницы*/
@@ -629,7 +630,7 @@ h3.service-title {
 }
 
 .footer-contacts {
-  max-width: 331px;
+  max-width: 333px;
 }
 
 .footer-contacts-phone {
@@ -692,7 +693,6 @@ h3.service-title {
 }
 
 /* Модальное окно */
-
 .modal-container {
   position: fixed;
   top: 0;
@@ -913,7 +913,6 @@ h3.service-title {
 
 
 /* Комментарии к датам в модальном окне */
-
 .comments {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -938,7 +937,6 @@ h3.service-title {
 
 
 /* Кнопки и иконки внутри инпутов типа number*/
-
 .field-button {
   border: none;
   padding: 0;
@@ -996,7 +994,6 @@ h3.service-title {
 }
 
 /* Тултип */
-
 .tooltip {
   position: absolute;
   top: -1px;
@@ -1074,7 +1071,6 @@ h3.service-title {
 }
 
 /*Оформление внутренних странниц*/
-
 .index-columns {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
@@ -1201,11 +1197,6 @@ h3.service-title {
   opacity: 0.6;
 }
 
-/*
-.control:focus {
-  color: rgb(255, 255, 255);
-} */
-
 .control:active {
   border: none;
   outline: none;
@@ -1249,7 +1240,6 @@ h3.service-title {
 }
 
 /* Радио-кнопки */
-
 .control-input[type="radio"] + .control-mark {
   border-radius: 50%;
 }
@@ -1271,7 +1261,6 @@ h3.service-title {
 }
 
 /* Ползунок цены */
-
 .range-wrapper-inputs {
   display: flex;
   justify-content: center;
@@ -1429,7 +1418,6 @@ h3.service-title {
 }
 
 /* Кнопки фильтров */
-
 .catalog-filter-wrapper-button {
   display: flex;
   flex-direction: column;
@@ -1454,8 +1442,7 @@ h3.service-title {
 }
 
 .catalog-filter-wrapper-button .button-background:focus {
-  border: 3px solid rgb(131, 179, 211);
-  outline: none;
+  outline: 3px solid rgb(131, 179, 211);
 }
 
 .catalog-filter-wrapper-button .button-background:active {
@@ -1463,7 +1450,6 @@ h3.service-title {
 }
 
 /* Сортировка */
-
 .sorting-container {
   display: flex;
   width: 1060px;
