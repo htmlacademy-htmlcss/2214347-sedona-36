@@ -1442,8 +1442,7 @@ h3.service-title {
 }
 
 .catalog-filter-wrapper-button .button-background:focus {
-  border: 3px solid rgb(131, 179, 211);
-  outline: none;
+  outline: 3px solid rgb(131, 179, 211);
 }
 
 .catalog-filter-wrapper-button .button-background:active {
