@@ -112,7 +112,8 @@
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="visually-hidden control-input" type="radio" name="product-group" value="hotel" checked>
+                      <input class="visually-hidden control-input" type="radio" name="product-group" value="hotel"
+                        checked>
                       <span class="control-mark"></span>
                       <span class="control-label">Гостиница</span>
                     </label>
@@ -140,10 +141,10 @@
                   <div class="range-wrapper-inputs">
                     <label class="control control-minimum" for="price-minimum">от</label>
                     <input class="control-range-input control-range-input-minimum" id="price-minimum" type="number"
-                      name="price-minimum" placeholder="0">
+                      name="price-minimum" placeholder="0" required="required">
                     <label class="control control-maximum" for="price-maximum">до</label>
                     <input class="control-range-input control-range-input-maximum" id="price-maximum" type="number"
-                      name="price-maximum" placeholder="9000">
+                      name="price-maximum" placeholder="9000" required="required">
                   </div>
 
                   <div class="range-scale">
@@ -331,7 +332,8 @@
           </p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually-hidden" for="subscribe-email">Ваш e-mail</label>
-            <input class="subscribe-input" type="email" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail">
+            <input class="subscribe-input" type="email" id="subscribe-email" name="subscribe-email"
+              placeholder="Ваш e-mail" required="required">
             <button class="button button-blue button-big subscribe-button" type="submit">Подписаться</button>
           </form>
         </section>
