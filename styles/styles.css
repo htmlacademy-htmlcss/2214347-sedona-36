@@ -1238,11 +1238,9 @@ h3.service-title {
   opacity: 0.6;
 }
 
-
-.control:focus .control-mark {
-  border: 3px solid rgb(131, 179, 211);
+.control-input:focus + .control-mark {
+  outline: 3px solid rgb(131, 179, 211);
   border-radius: 4px;
-  outline: none;
 }
 
 .control:active .control-mark {
