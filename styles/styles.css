@@ -1528,6 +1528,10 @@ h3.service-title {
   position: relative;
 }
 
+.sorting-view .card-grid-toggle:nth-of-type(n+4) {
+  margin-top: 5px;
+}
+
 .card-grid-toggle-icon {
   position: absolute;
   top: 0;
