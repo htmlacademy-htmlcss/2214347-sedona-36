@@ -1322,18 +1322,17 @@ h3.service-title {
   color: rgb(0, 0, 0, 1);
 }
 
-.control-range-input-minimum {
-  border-radius: 4px 0 0 4px;
-  margin-right: 2px;
-}
-
 .control-range-input:focus {
-  border: 3px solid rgb(131, 179, 211);
-  outline: none;
+  outline: 3px solid rgb(131, 179, 211);
 }
 
 .control-range-input:active {
-  border: 2px solid rgb(0, 0, 0);
+  outline: 2px solid rgb(0, 0, 0);
+}
+
+.control-range-input-minimum {
+  border-radius: 4px 0 0 4px;
+  margin-right: 2px;
 }
 
 .control-range-input-maximum {
