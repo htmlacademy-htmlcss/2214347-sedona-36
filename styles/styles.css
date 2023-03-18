@@ -284,6 +284,7 @@ a.button {
 
 .advantages-header .advantages-description {
   margin: 0;
+  color: rgba(51, 51, 51);
 }
 
 header .advantages-title,
@@ -351,6 +352,17 @@ header .service-description,
   line-height: 28px;
   text-transform: uppercase;
 }
+
+.advantages-description,
+.service-description {
+  color: rgba(51, 51, 51);
+}
+
+.advantages-town .advantages-description,
+.advantages-bridge .advantages-description {
+  color: rgb(255, 255, 255);
+}
+
 
 .advantages-item-text .advantages-title {
   margin-bottom: 30px;
@@ -497,6 +509,7 @@ h3.service-title {
 
 .hotel-search-description {
   margin: 0;
+  color: rgb(51, 51, 51);
 }
 
 .hotel-search .button-big {
@@ -1485,6 +1498,8 @@ h3.service-title {
   padding-right: 48px;
   font: inherit;
   font-weight: 400;
+  color: rgb(51, 51, 51);
+  background-color: rgb(255, 255, 255);
   border: 2px solid rgb(229, 229, 229);
   border-radius: 4px;
   background-image: url("../images/select_arrow.svg");
@@ -1638,6 +1653,7 @@ h3.service-title {
 .hotel-card-description .hotel-card-name,
 .hotel-card-description .hotel-card-price {
   min-height: 21px;
+  color: rgb(51, 51, 51);
 }
 
 .button.hotel-card-button-more {
@@ -1712,8 +1728,9 @@ h3.service-title {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: rgb(51, 51, 51);
   background-color: rgb(242, 242, 242);
+  border-radius: 4px;
 
   display: flex;
   box-sizing: border-box;
@@ -1822,4 +1839,5 @@ h3.service-title {
 .subscribe-inner-description {
   margin-top: 0;
   margin-bottom: 54px;
+  color: rgb(51, 51, 51);
 }
