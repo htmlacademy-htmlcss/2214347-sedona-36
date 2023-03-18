@@ -577,7 +577,7 @@ h3.service-title {
 }
 
 .subscribe-form .button {
-  min-width: 232px;
+  width: 232px;
   border-radius: 0 4px 4px 0;
 }
 
