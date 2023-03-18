@@ -1456,7 +1456,7 @@ h3.service-title {
   display: flex;
   width: 1060px;
   margin: 0 auto;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 50px;
   margin-bottom: 40px;
 }
