@@ -724,9 +724,9 @@ h3.service-title {
 }
 
 /* Доп. класс, чтобы закрыть модальное окно */
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 
 .modal {
   position: relative;
@@ -796,17 +796,46 @@ h3.service-title {
 
 .search-hotel-form .field-group {
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 23px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
+  position: relative;
+}
+
+.field-group-date .field-group-label {
+  max-width: 119;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.field-group-small label {
+  max-width: 91px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.field-group-label-icon label {
+  max-width: 49px;
+}
+
+.wrapper-input-comments {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.wrapper-input-buttons {
+  display: flex;
+  flex-direction: column;
 
   position: relative;
 }
 
 .wrapper-field-group-small {
   display: flex;
-  align-items: center;
+  margin-bottom: 48px;
 }
 
 .field-group-label {
@@ -817,6 +846,12 @@ h3.service-title {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
+  padding: 12px 0;
+}
+
+.field-group.field-group-small {
+  margin: 0;
 }
 
 .field-group-small:nth-of-type(2n+1) {
@@ -829,6 +864,7 @@ h3.service-title {
 
 .field-group-label-icon {
   max-width: 85px;
+  padding: 0;
   position: relative;
 }
 
@@ -941,9 +977,10 @@ h3.service-title {
   line-height: 21px;
   color: rgb(51, 51, 51);
 
-  position: absolute;
-  top: 52px;
-  left: 157px;
+  max-width: 400px;
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .comments-error {
@@ -956,7 +993,7 @@ h3.service-title {
 } */
 
 
-/* Кнопки и иконки внутри инпутов типа number*/
+/* Кнопки и иконки внутри инпутов*/
 .field-button {
   border: none;
   padding: 0;
@@ -1016,7 +1053,7 @@ h3.service-title {
 /* Тултип */
 .tooltip {
   position: absolute;
-  top: -1px;
+  top: 11px;
   right: 0;
   width: 26px;
   height: 26px;
