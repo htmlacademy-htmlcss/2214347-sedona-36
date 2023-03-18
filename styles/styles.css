@@ -252,7 +252,7 @@ a.button {
   padding-top: 51px;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
-  background-image: url("../images/block_hero/index-background.jpg");
+  background-image: url("../images/block_hero/background_image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
