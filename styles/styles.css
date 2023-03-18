@@ -704,11 +704,11 @@ h3.service-title {
   fill: rgb(117, 97, 87);
 }
 
-.footer-logo-link-icon:focus {
+.footer-logo-link:focus .footer-logo-link-icon {
   fill: rgb(117, 97, 87);
 }
 
-.footer-logo-link-icon:active {
+.footer-logo-link:active .footer-logo-link-icon {
   fill: rgba(117, 97, 87, 0.3);
 }
 
