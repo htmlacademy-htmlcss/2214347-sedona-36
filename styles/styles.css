@@ -188,7 +188,7 @@ a.button {
   max-width: 315px;
   margin-left: auto;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .navigation-user .navigation-link {
@@ -232,6 +232,7 @@ a.button {
 
 .navigation-item.navigation-button {
   margin-left: 20px;
+  padding: 14px 0;
 }
 
 .navigation-button .navigation-link {
