@@ -639,6 +639,11 @@ h3.service-title {
   fill: rgb(131, 179, 211);
 }
 
+.footer-social-link:hover .footer-icon,
+.footer-social-link:focus .footer-icon {
+  fill: rgb(104, 162, 202);
+}
+
 .footer-social-link:active .footer-icon {
   fill: rgba(104, 162, 202, 0.3);
 }
