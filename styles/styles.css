@@ -804,7 +804,7 @@ h3.service-title {
 }
 
 .field-group-date .field-group-label {
-  max-width: 119;
+  max-width: 119px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
